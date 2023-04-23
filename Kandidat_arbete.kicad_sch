@@ -1,0 +1,78 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8ee76660-5742-4f81-8389-696cf96be6c0)
+
+  (paper "A4")
+
+  (title_block
+    (title "STM32 with Gyro-sensor kandidatarbete")
+    (date "2023-02-03")
+    (rev "1.0")
+    (company "Chalmers")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Kandidatarbete \"Autonom enjhuling\". Detta kretskort är styrsystmet till enhjulingen."
+    (at 62.23 27.94 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid b3f36f79-009e-4bdd-ab86-32dc6cc09a08)
+  )
+
+  (sheet (at 123.19 49.53) (size 26.67 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 201 255 131 1.0000))
+    (uuid 05ba8980-84be-4abf-b9b3-c3b8b305c824)
+    (property "Sheetname" "STM32 and Connectivity" (at 123.19 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "STM32 and Connectivity.kicad_sch" (at 123.19 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Kandidat_arbete"
+        (path "/8ee76660-5742-4f81-8389-696cf96be6c0" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 81.28 49.53) (size 26.67 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 196 34 1.0000))
+    (uuid 89913598-0bbc-4682-ac1a-b4bb607f4b0f)
+    (property "Sheetname" "Power circuitery" (at 81.28 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_circuitery_STM32.kicad_sch" (at 81.28 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Kandidat_arbete"
+        (path "/8ee76660-5742-4f81-8389-696cf96be6c0" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 167.64 49.53) (size 26.67 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 121 200 255 1.0000))
+    (uuid ea70df5a-ecfb-421d-a6ac-7fb370e2f546)
+    (property "Sheetname" "Sensors" (at 167.64 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensors.kicad_sch" (at 167.64 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Kandidat_arbete"
+        (path "/8ee76660-5742-4f81-8389-696cf96be6c0" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
