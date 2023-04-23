@@ -1118,7 +1118,6 @@
     )
   )
 
-
   (junction (at 189.23 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 184d18df-2080-4445-a0f6-4c1af847a1d6)
   )
@@ -2227,7 +2226,7 @@
     (property "Value" "Screw_Terminal_01x02" (at 99.06 41.9099 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (at 96.52 39.37 0)
+    (property "Footprint" "TerminalBlock_Philmore:TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal" (at 96.52 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 96.52 39.37 0)
@@ -2785,7 +2784,7 @@
     (property "Value" "D_Zener_Small" (at 22.86 49.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 33.02 41.91 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" (at 33.02 41.91 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 41.91 90)
